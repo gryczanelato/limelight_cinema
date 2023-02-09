@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #eaeeff;
+}
+
+font-face {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PoppinsRegular-B2Bw'), url(poppins-font/PoppinsRegular-B2Bw.otf);
+}
+
+h1 {
+    font-family: 'poppins';
+    font-size: 50px;
+    font-weight: 400;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'poppins';
+    font-size: 35px;
+    font-weight: 400;
+    color: #000000;
+}
+
+h5 {
+    font-family: 'poppins';
+    font-size: 17px;
+    font-weight: 100;
+    color: #eaeeff;
+}
+
+
+p {
+    font-family: 'poppins';
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #eaeeff;
+}
+
+.navbar {
+    background-color: #001018;
+}
+
+.navbar-nav li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.navbar-nav li a:hover {
+    color: #ffb30f;
+}
+
+.navbar-nav-left {
+    width: auto;
+    float: inline-start;
+}
+
+.navbar-nav-right {
+    width: auto;
+    float: inline-end;
+}
+
+.nav-link {
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size: 20px;
+    color: #eaeeff;
+    text-decoration: none;
+}
+
+
+button {
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: #ffb30f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #ffcf67;
+    color:#000000;
+}
+
+.nav-link-lr > .nav-button {
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: #ffb30f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    padding: 15px;
+    width: 200px;
+}
+
+.nav-link-lr > .nav-button:hover {
+    background-color: #ffcf67;
+    color:#000000;
+}
+
+input[type=submit] {
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: #ffb30f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+input[type=submit]:hover {
+    background-color: #ffcf67;
+    color:#000000;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 10px 10px;
+}
+
+.add-movie {
+    background-color: #001018;
+}
+
+.add-users {
+    background-color: #001018;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+}
+  
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+}
+  
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+}
+
+.fadeInLeft {
+    animation-name: fadeInLeft;
+}
